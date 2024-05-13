@@ -530,7 +530,6 @@ ul li {
 
 /* FAQs*/
 
-
 .FAQs{
   background: #212529 !important;
   align-items: center;
@@ -540,7 +539,26 @@ ul li {
 .accordion-collapse{
   padding: 10px;
 }
+.accordion-button{
+  color: black !important;
+  position: relative;
+  box-shadow: none !important;
+  background-color: #035732cb !important;
 
+}
+
+.accordion-button:active, .accordion-button:focus{
+  border: none !important;
+}
+
+
+.accordion-button::after{
+  
+  background: #fff;
+  transform: scale(1.2);
+  border-radius: 3px;
+  transition: .5s !important;
+}
 
 /* footer */
 
