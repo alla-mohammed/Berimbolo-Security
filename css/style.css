@@ -1,3 +1,6 @@
+* {
+   transition: all 350ms ease-in-out; 
+  }
 .navbar-brand {
   transition: transform 0.3s ease;
 }
@@ -90,6 +93,8 @@
 }
 #about img {
   min-height: 100%;
+  object-fit: cover;
+  object-position: right;
 }
 .aboutus-para {
   font-size: 23px;
